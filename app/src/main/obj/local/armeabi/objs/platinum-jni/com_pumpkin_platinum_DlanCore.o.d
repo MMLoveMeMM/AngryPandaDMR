@@ -1,6 +1,5 @@
-F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/obj/local/armeabi-v7a/objs/platinum-jni/platinum-jni.o: \
-  F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/platinum-jni.cpp \
-  F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/platinum-jni.h \
+F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/obj/local/armeabi/objs/platinum-jni/com_pumpkin_platinum_DlanCore.o: \
+  F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/com_pumpkin_platinum_DlanCore.cpp \
   F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Platinum\Platinum.h \
   F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Core\PltUPnP.h \
   F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Core/PltTaskManager.h \
@@ -88,9 +87,8 @@ F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/obj/local/armeabi-v7a/objs
   F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Extras\PltFrameBuffer.h \
   F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Extras\PltFrameServer.h \
   F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Extras\PltFrameStream.h \
-  F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Extras\PltRingBufferStream.h
-
-F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/platinum-jni.h:
+  F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Extras\PltRingBufferStream.h \
+  F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PltMediaRendererDelegate.h
 
 F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Platinum\Platinum.h:
 
@@ -267,3 +265,5 @@ F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/S
 F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Extras\PltFrameStream.h:
 
 F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PlatinumKit/Platinum/Source/Extras\PltRingBufferStream.h:
+
+F:/liuzhibao/protocol/dlan/AngryPandaDMR/app/src/main/jni/PltMediaRendererDelegate.h:

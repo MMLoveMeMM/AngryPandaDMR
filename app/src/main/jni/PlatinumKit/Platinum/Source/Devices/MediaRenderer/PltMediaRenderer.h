@@ -75,8 +75,8 @@ class PLT_MediaRenderer : public PLT_DeviceHost
 {
 public:
     PLT_MediaRenderer(const char*  friendly_name,
-                      bool         show_ip = false,
-                      const char*  uuid = NULL,
+                      bool         show_ip,
+                      const char*  uuid,
                       unsigned int port = 0,
                       bool         port_rebind = false);
     // methods
@@ -84,6 +84,7 @@ public:
 
     // PLT_DeviceHost methods
     virtual NPT_Result SetupServices();
+    virtual NPT_Result UpdateServices(const char* value,const char* data);
     virtual NPT_Result OnAction(PLT_ActionReference&          action, 
                                 const PLT_HttpRequestContext& context);
 

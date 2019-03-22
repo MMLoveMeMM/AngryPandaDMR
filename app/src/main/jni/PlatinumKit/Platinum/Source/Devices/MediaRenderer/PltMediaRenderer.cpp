@@ -202,6 +202,36 @@ PLT_MediaRenderer::SetupServices()
     return NPT_SUCCESS;
 }
 
+NPT_Result
+PLT_MediaRenderer::UpdateServices(const char* value,const char* data)
+{
+
+    PLT_Service* serviceUpdate;
+    if(FindServiceByType("urn:schemas-upnp-org:service:AVTransport:1", serviceUpdate) == NPT_ERROR_NO_SUCH_ITEM){
+        LOGI("cant find PLT_Service.....");
+        return NPT_FAILURE;
+    }
+    if(*(value+2) == ':' && *(value+5) == ':')
+    {
+        if(*(data+0) == 'd')
+        {
+            serviceUpdate->SetStateVariable("CurrentTrackDuration", value);
+            serviceUpdate->SetStateVariable("CurrentMediaDuration", value);
+        }
+        else
+        {
+            serviceUpdate->SetStateVariable("RelativeTimePosition", value);
+            serviceUpdate->SetStateVariable("AbsoluteTimePosition", value);
+        }
+    }
+    else
+    {
+        serviceUpdate->SetStateVariable("TransportState", value);
+    }
+
+    return NPT_SUCCESS;
+}
+
 /*----------------------------------------------------------------------
 |   PLT_MediaRenderer::OnAction
 +---------------------------------------------------------------------*/
