@@ -1,1 +1,10 @@
-使用改成中注意点:
+使用该工程需要注意点:</br>
+由于github上,工程太大的无法上传成功,所以我把工程jni部分的源码压缩成压缩包了PlatinumKit.zip了</br>
+使用者需要将PlatinumKit.zip解压到jni根目录下以后才能够使用</br>
+目录结构:</br>
+jni -></br>
+    ->PlatinumKit[文件夹]</br>
+    ->Android.mk</br>
+    ->Application.mk</br>
+    -> ...[其他文件]</br>
+
